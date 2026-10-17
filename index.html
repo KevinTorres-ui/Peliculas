@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperacion 01</title>
+</head>
+<body>
+    
+<center>
+    <h1>Consulta de Peliculas</h1>
+
+    <div class="buscador-container">
+        <span>Nombre</span>
+        <input type="text" id="inputPelicula" placeholder="Escribe el titulo">
+        <button id="btnBuscar">Buscar</button>
+    </div>
+
+    <p id="pError"></p>
+
+    <div id="seccionResultado" style="display:none">
+        <hr>
+        <p><strong>Nombre:</strong> <span id="txtNombre"></span></p>
+        <p><strong>Año de Realizacion:</strong> <span id="txtAño"></span></p>
+
+        <div class="info-principal">
+            <img id="imgPoster" src="" width="200" alt="Poster">
+            
+            <div class="columna-resena">
+                <p><strong>Reseña</strong></p>
+                <div id="txtResena"></div>
+            </div>
+        </div>
+
+        <p><strong>Actores:</strong> <span id="txtActores"></span></p>
+    </div>
+    </center>  
+    
+    
+    <script src="archivo.js"></script>
+</body>
+</html>

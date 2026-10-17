@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center; 
+    padding-top: 50px;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+
+.buscador-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+input {
+    padding: 8px;
+    width: 300px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+button {
+    padding: 8px 20px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #999;
+}
+
+#pError {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#seccionResultado {
+    display: none;
+    text-align: left;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 900px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.info-principal {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+#txtResena {
+    border: 1px solid #000;
+    padding: 15px;
+    max-width: 400px;
+}
+/*Se Termino el Proyecto/*
